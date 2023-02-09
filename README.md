@@ -56,6 +56,27 @@ python Train_webvision_sv-learner.py.py  --batch_size 64 --num_epochs 100    --l
 ```
 
 ## Results
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/result_cifar10.jpg"  width="400px" /> <img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/result_cifar100.jpg"  width="360px" />
+
+## Visualization
+Visualization of embedded features on CIFAR-10 with 20%-90% symmetric noise.
+
+20% symmetric noise.
+
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-20%25.png"  width="360px" /> 
+
+50% symmetric noise.
+
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-50%25.png"  width="360px" />
+
+80% symmetric noise.
+
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-80%25.png"  width="360px" />
+
+90% symmetric noise.
+
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-90%25.png"  width="360px" />
 
 
-
+## License
+This project is licensed under the terms of the MIT license.
