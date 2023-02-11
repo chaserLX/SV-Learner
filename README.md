@@ -1,12 +1,8 @@
 # SV-Learner: Support Vector-drived Contrastive Learning for Robust Learning with Noisy labels
 
-<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/framework.png"  width="800px" />
+<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/SV-Learner.png"  width="800px" />
 
 This is the official PyTorch implementation of IJCAI 2023 paper (SV-Learner: Support Vector-drived Contrastive Learning for Robust Learning with Noisy labels).
-
-**Authors:** Xin Liang, Yanli Ji, Wangmeng Zuo.
-
-**Affliations:** UESTC, HIT.
 
 ## Abstract
 Noisy-label data inevitably gives rise to confusion in various perception applications. In this paper, we propose a robust-to-noise framework SV-Learner to solve the problem of recognition with noisy labels. In particular, we first design a Dynamic Noisy Sample Selection (DNSS) solution for learning more robust classification boundaries, which dynamically determines the filter rates of classifiers for reliable noisy sample selection based on curriculum learning. Inspired by support vector machines (SVM), we propose a Support Vector driven Contrastive Learning (SVCL) approach that mines support vectors near classification boundaries as negative samples to drive contrastive learning. These support vectors expand the margin between different classes for contrastive learning, therefore better promoting the robust detection of noise samples. Finally, a Dynamic Semi-Supervised Classification (DSSC) module is presented to realize noisy-label recognition. In comparison with the state-of-the-art approaches, the proposed SV-Learner achieves the best performance in multiple datasets, including the CIFAR-10, CIFAR-100, Clothing1M, and Webvision datasets. Extensive experiments demonstrate the effectiveness of our proposed method. 
@@ -64,14 +60,6 @@ Visualization of embedded features on CIFAR-10 with 20%-90% symmetric noise.
 20% symmetric noise.
 
 <img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-20%25.png"  width="360px" /> 
-
-50% symmetric noise.
-
-<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-50%25.png"  width="360px" />
-
-80% symmetric noise.
-
-<img src="https://github.com/chaserLX/SV-Learner/blob/main/figures/tsne-80%25.png"  width="360px" />
 
 90% symmetric noise.
 
